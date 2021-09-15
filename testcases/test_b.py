@@ -1,4 +1,6 @@
-class Test_B:
-    def test_b(self):
-        print("In Test B")
-        assert 1==1
+def sum():
+    a = 10
+    b = 5
+    c = a+b
+    print(c)
+sum()
