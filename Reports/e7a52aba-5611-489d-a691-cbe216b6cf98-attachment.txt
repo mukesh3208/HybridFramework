@@ -1,0 +1,2 @@
+INFO     root:genKeyword.py:170 Closing browser
+INFO     root:genKeyword.py:170 Browser closed successfully

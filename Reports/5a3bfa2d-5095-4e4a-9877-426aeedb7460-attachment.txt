@@ -1,0 +1,12 @@
+INFO     root:genKeyword.py:170 Opening firefox Browser
+INFO     root:genKeyword.py:170 Maximizing browser window
+INFO     root:genKeyword.py:170 Browser -firefox opened and maximized successfully
+INFO     root:genKeyword.py:170 Navigate to url - https://10.228.81.11:8443/onelink-web
+INFO     root:genKeyword.py:170 Navigated to url - https://10.228.81.11:8443/onelink-web successfully
+INFO     root:genKeyword.py:170 Title validation successful
+INFO     root:genKeyword.py:170 Typing data - super in element - usernameTextBox_id
+INFO     root:genKeyword.py:170 Typed super in usernameTextBox_id successfully
+INFO     root:genKeyword.py:170 Typing data - super1 in element - passwordTextBox_id
+INFO     root:genKeyword.py:170 Typed super1 in passwordTextBox_id successfully
+INFO     root:genKeyword.py:170 Clicking on element submitBtn_id
+INFO     root:genKeyword.py:170 Clicked on submitBtn_id successfully

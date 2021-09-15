@@ -1,0 +1,28 @@
+INFO     root:genKeyword.py:172 Opening firefox Browser
+INFO     root:genKeyword.py:172 Maximizing browser window
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:11.485625
+INFO     root:genKeyword.py:172 Browser -firefox opened and maximized successfully
+INFO     root:genKeyword.py:172 Navigate to url - https://10.228.81.11:8443/onelink-web
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:15.669402
+INFO     root:genKeyword.py:172 Navigated to url - https://10.228.81.11:8443/onelink-web successfully
+INFO     root:genKeyword.py:172 Typing data - super in element - usernameTextBox_id
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:16.162378
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:17.314840
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:17.979240
+INFO     root:genKeyword.py:172 Typed super in usernameTextBox_idsuccessfully
+INFO     root:genKeyword.py:172 Typing data - super1 in element - passwordTextBox_id
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:18.391856
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:18.901442
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:19.529673
+INFO     root:genKeyword.py:172 Typed super1 in passwordTextBox_idsuccessfully
+INFO     root:genKeyword.py:172 Clicking on element submitBtn_id
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:19.952192
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:20.337323
+INFO     root:genKeyword.py:172 The page loaded successfully
+INFO     root:genKeyword.py:172 Screenshot taken at : 2021-09-12 20:53:21.216612
+INFO     root:genKeyword.py:172 Clicked on submitBtn_id successfully
