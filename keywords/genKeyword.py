@@ -169,8 +169,7 @@ class genKeywords:
     def getElement(self, locator):
         obj = self.envProp[locator]
         element=NULL
-        print("Locator is "+str(locator))
-        print("Object is "+str(obj))
+
         if(self.isElementVisible(locator) and self.isElementPresent(locator)):
             try:
                 if (locator.endswith('_xpath')):
@@ -229,7 +228,7 @@ class genKeywords:
 
     # Application specific functions
     def validateTitle(self):
-        print("In validate title")
+
         with allure.step("Validating Url Title..."):
             expectedTitle = self.envProp[self.objectKey]
             actualTitle = self.driver.title
@@ -256,7 +255,7 @@ class genKeywords:
         wait = WebDriverWait(self.driver, 10)
         wait.until(EC.alert_is_present)
         a = self.driver.switch_to.alert()
-        print(a.text)
+
         a.accept()
         self.driver.switch_to.default_content()
 

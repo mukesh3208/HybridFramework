@@ -12,22 +12,20 @@ envProp=Properties()
 Dlist=[]
 Glist=[]
 
-@pytest.yield_fixture(scope="session", autouse=True)
+@pytest.fixture(scope="function", autouse=True)
 def base_fixture():
     try:
         prodPath=open("C:\\Users\\kumarmu\\Documents\\pythonSelenium\\HybridFramework\\production.properties")
         prod.load(prodPath)
-        prod.list()
+
         envPath = open("C:\\Users\\kumarmu\\Documents\\pythonSelenium\\HybridFramework\\environment.properties")
         envProp.load(envPath)
-        envProp.list()
-
         d = driverScript()
         Dlist.append(d)
         gen = genKeywords()
         Glist.append(gen)
-    except Exception as e:
-        print(e)
+    except FileNotFoundError as f:
+        print(f)
     yield locals()
     time.sleep(10)
     gen.closeApp()
